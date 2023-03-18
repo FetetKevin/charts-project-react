@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+}
+
+.container {
+    /* border: 1px solid red; */
+    height: auto;
+    width: 500px;
+}
+
+header {
+    height: 110px;
+    width: auto;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.header-left {
+    margin-right: auto;
+}
+
+.header-left h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    line-height: 3rem;
+    font-size: 1.6rem;
+}
+
+.header-left h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 3rem;
+}
+
+header img {
+    width: 60px;
+}
+
+main {
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+main h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: hsl(25, 47%, 15%);
+}
+
+.charts {
+    height: 220px;
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column;
+}
+
+.graph {
+    width: 48px;
+    height: 160px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 6px;
+}
+
+.cian {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.chart p {
+    text-align: center;
+    font-size: 1.43rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+}
+
+main .hr {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+main .main-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-left h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+    font-size: 1.6rem;
+}
+
+.main-left h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
+    font-size: 4.2rem;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main-right h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: hsl(25, 47%, 15%);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-right h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: hsl(28, 10%, 53%);
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 420px;
+    }
+    .charts {
+        gap: 8px;
+    }
+    main {
+        padding: 15px;
+    }
+}
